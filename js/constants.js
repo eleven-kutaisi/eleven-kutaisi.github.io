@@ -3,7 +3,8 @@ var data = {
     address: "3rd lane, 11 Lado Asatiani Street, Kutaisi 4600, Georgia",
     wpLink: "https://wa.me/995571718271",
     email: "elevenkutaisi@gmail.com",
-    copyright: "© 2024 Eleven Guesthouse. All Rights Reserved | Designed By Friends from India &#10084"
+    copyright: "© 2024 Eleven Guesthouse. All Rights Reserved | Designed By Friends from India &#10084",
+    title: "Comfortable Luxury Guest House in Kutaisi, Georgia"
 };
 
 function updateElements(className, content) {
