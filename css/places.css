@@ -1,0 +1,472 @@
+body {
+    font-family: "Jost", sans-serif;
+}
+
+.streamedge-Footer-contact-phone .phone-icon,
+.streamedge-Footer-contact-phone .location-icon,
+.streamedge-Footer-contact-phone .email-icon {
+    filter: brightness(1.5);
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* styles for Rooms page starts here */
+.dropdown, .dropend, .dropstart, .dropup {
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, .9);
+}
+.dropdown-item{
+    font-size: 12px;
+    font-weight: 500;
+}
+.SteamEdge-logo {
+    height: 60px;
+    width: 170px;
+}
+
+.SteamEdge-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.navbar-background-image {
+    background: linear-gradient(rgb(0 0 0 / 77%), rgb(0 0 0 / 35%)), url(./assets/images/places-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    margin-bottom: 45px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 20px;
+}
+
+.StreamEdge-Rooms-banner-title h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.StreamEdge-Rooms-banner-title {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Styles for Footer - rooms page starts here */
+.streamedge-Footer-contact-phone {
+    display: flex;
+    gap: 10px;
+}
+
+.Footer-content p {
+    color: #fff;
+}
+
+.StreamEdge-Rooms-service-categories-parent.container {
+    background: #FDF8F8;
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.StreamEdgeFooter-gallery-parent {
+    margin: 35px 0px 0px 0px;
+}
+
+.StreamEdge-Rooms-copyrights p {
+    margin: 0;
+    padding: 20px 0px;
+    color:#fff;
+}
+
+.stream-edge-map-subparent .row {
+    margin: 60px 0;
+}
+
+.streamedge-Footer-email-newsletter input {
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.streamedge-Footer-email-newsletter input::placeholder {
+    color: #fff;
+}
+
+hr {
+    color: lightgrey;
+    margin: 0;
+}
+
+.streamEdge-Footer-link-title {
+    margin-bottom: 20px;
+}
+
+.Footer-content {
+    padding: 40px 0px 25px 0px;
+}
+
+.Fooer-Gallery-images {
+    height: 140px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Fooer-Gallery-images img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.Fooer-Gallery-images img:hover {
+    transform: scale(1.2);
+}
+
+.StreamEdge-Rooms-Footer-Parent {
+    background: #000;
+    padding-top: 12px;
+    margin-top: -7px;
+}
+
+.heading-location-busy h5 {
+    color: #dc3545;
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.navbar-home-mobile-icon-parent {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-home-mobile-icon-parent p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.navbar-home-mobile-icon img {
+    filter: brightness(0.5);
+}
+
+form.d-flex.navbar-home-mobile-icon-parent-main {
+    gap: 15px;
+    align-items: center;
+}
+
+form.d-flex.navbar-home-mobile-icon-parent-main button {
+    font-size: 14px;
+}
+
+.streamedge-contact-message {
+    padding: 36px 10px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.Fooer-Gallery-images img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.3s linear;
+    /* object-fit: contain; */
+}
+
+.Fooer-Gallery-images img:hover {
+    transform: scale(1.2);
+}
+
+.PANDAVARA-GUDDA-image {
+    width: 50%;
+    height: 260px;
+}
+
+.PANDAVARA-GUDDA-image img {
+    /* transition: all 0.3s linear; */
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.PANDAVARA-GUDDA-image img:hover{
+/* transform: scale(1.2); */
+}
+.pandavara-gudda-data h4 {
+    color: #0E2A4E;
+    font-size: 25px;
+}
+
+.pandavara-gudda-data p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.streamedge-places-visit-subparent .container-lg .row {
+    padding: 50px 0;
+}
+
+.width-height-resort-palces .pandavara-gudda-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+}
+
+.width-height-resort-palces-less .pandavara-gudda-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+}
+
+.width-height-resort-palces {
+    min-height: 300px;
+}
+
+.width-height-resort-palces-less {
+    min-height: 235px;
+}
+.width-height-resort-palces.background-color{
+    padding: 10px 28px;
+    background: #fff1f1ad;
+    margin: 25px 0px;
+    border-radius: 10px;
+}
+.width-height-resort-palces-less.background-color{
+    padding: 10px 28px;
+    background: #fff1f1ad;
+    margin: 25px 0px;
+    border-radius: 10px;
+}
+    /* footer social media icons */
+    .Footer-social-Media-icons{
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+    .Footer-social-Media-icons i{
+       font-size: 30px;
+       color: #fff;
+    }
+@media screen and (max-width:480px) {
+    .streamedge-places-visit-subparent .container-lg .row .col-md-6 .d-flex{
+        display: block !important;
+    }
+    .PANDAVARA-GUDDA-image{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:767px) { .Footer-content .row .col-sm-12.col-md-2{
+        width: 45%;
+        margin: 20px 0px;
+    }
+    .Footer-content .row div:nth-child(3){
+        order: 3;
+    }
+    .Footer-content .row .col-sm-8.col-md-3:last-child{
+       
+        width: 45%;
+        margin: 20px 0px;
+    }
+    .StreamEdge-Rooms-copyrights p {
+        font-size: 13px;
+    }
+    .Footer-content p {
+        color: #fff;
+        font-size: 15px;
+    }
+    .Footer-content {
+        padding: 40px 0px 25px 15px;
+    }
+    .width-height-resort-palces.background-color{
+        margin: 5px 0;
+    }
+    .width-height-resort-palces-less.background-color{
+        margin: 5px 0;
+    }
+    .streamedge-places-visit-subparent .container-lg .width-height-resort-palces.order-place .row{
+        flex-direction: column-reverse;
+    }
+    .streamedge-places-visit-subparent .container-lg .width-height-resort-palces-less.order-place .row{
+        flex-direction: column-reverse;
+    }
+    .width-height-resort-palces-less{
+        height: fit-content;
+        padding: 10px 12px !important;
+    }
+    .streamedge-places-visit-subparent .container-lg .row{
+        padding: 8px 0;
+    }
+    .pandavara-gudda-data h4 {
+        font-size: 18px;
+    }
+    .StreamEdge-Rooms-banner-title h1 {
+        font-size: 38px;
+    }
+    .width-height-resort-palces-less .pandavara-gudda-data{
+        height: fit-content;
+    }
+    .navbar-background-image {
+        height: 370px;
+    }
+    .width-height-resort-palces .pandavara-gudda-data{
+        height: fit-content;
+    }
+    .StreamEdge-Rooms-banner-title {
+        height: 240px;
+    }
+    .PANDAVARA-GUDDA-image {
+        height: 240px;
+    }
+    .PANDAVARA-GUDDA-image img {
+        padding: 5px;
+    }
+
+    .pandavara-gudda-data p {
+        font-size: 13px;
+    line-height: 20px;
+    }
+
+    .width-height-resort-palces {
+        padding: 10px 12px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .width-height-resort-palces.background-color{
+        margin: 5px 0;
+    }
+    .width-height-resort-palces-less.background-color{
+        margin: 5px 0;
+    }
+    .width-height-resort-palces-less{
+        height: fit-content;
+        padding: 10px 12px !important;
+    }
+    .streamedge-places-visit-subparent .container-lg .row{
+        padding: 8px 12px;
+    }
+    .pandavara-gudda-data h4 {
+        font-size: 14px;
+    }
+    .StreamEdge-Rooms-banner-title h1 {
+        font-size: 38px;
+    }
+    .width-height-resort-palces-less .pandavara-gudda-data{
+        height: 160px;
+    }
+    .navbar-background-image {
+        height: 390px;
+    }
+    .width-height-resort-palces .pandavara-gudda-data{
+        height: fit-content;
+    }
+    .StreamEdge-Rooms-banner-title {
+        height: 240px;
+    }
+
+    .PANDAVARA-GUDDA-image{
+        height: 170px;
+    }
+    .width-height-resort-palces-less{
+        min-height: fit-content;
+    }
+    .PANDAVARA-GUDDA-image img {
+        padding: 5px;
+    }
+    .width-height-resort-palces{
+        min-height: fit-content;
+    }
+    .pandavara-gudda-data p {
+        font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    }
+
+    .width-height-resort-palces {
+        padding: 10px 12px !important;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .width-height-resort-palces.background-color{
+        margin: 5px 0;
+    }
+    .width-height-resort-palces-less.background-color{
+        margin: 5px 0;
+    }
+    .width-height-resort-palces-less{
+        height: fit-content;
+        padding: 10px 12px !important;
+    }
+    .streamedge-places-visit-subparent .container-lg .row{
+        padding: 8px 12px;
+    }
+    .pandavara-gudda-data h4 {
+        font-size: 18px;
+    }
+    .StreamEdge-Rooms-banner-title h1 {
+        font-size: 38px;
+    }
+    .width-height-resort-palces-less .pandavara-gudda-data{
+        height: 190px;
+    }
+    .navbar-background-image {
+        height: 390px;
+    }
+    .width-height-resort-palces .pandavara-gudda-data{
+        height: fit-content;
+    }
+    .StreamEdge-Rooms-banner-title {
+        height: 240px;
+    }
+
+    .PANDAVARA-GUDDA-image{
+        height: 200px;
+    }
+    .width-height-resort-palces-less{
+        min-height: fit-content;
+    }
+    .PANDAVARA-GUDDA-image img {
+        padding: 5px;
+    }
+    .width-height-resort-palces{
+        min-height: fit-content;
+    }
+    .pandavara-gudda-data p {
+        font-size: 14px;
+    line-height: 18px;
+    }
+
+    .width-height-resort-palces {
+        padding: 10px 12px !important;
+    }
+}

@@ -1,0 +1,526 @@
+body {
+    font-family: "Jost", sans-serif;
+}
+
+/* styles for Rooms page starts here */
+.dropdown, .dropend, .dropstart, .dropup {
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, .9);
+}
+.dropdown-item{
+    font-size: 12px;
+    font-weight: 500;
+}
+.navbar-home-mobile-icon img{
+    filter: brightness(0.1);
+}
+.navbar-home-mobile-icon-parent p{
+    color: #000;
+}
+.SteamEdge-logo {
+    height: 60px;
+    width: 170px;
+}
+
+.SteamEdge-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.StreamEdge-Rooms-banner-title h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.navbar-background-image {
+    background-image: url('./assets/images/vacationtoursbg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding-top: 20px;
+}
+
+.StreamEdge-Rooms-banner-title {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Styles for Footer - rooms page starts here */
+.streamedge-Footer-contact-phone .phone-icon,.streamedge-Footer-contact-phone .location-icon,.streamedge-Footer-contact-phone .email-icon{
+    filter: brightness(1.5);
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+    margin-top: 2px;
+    }
+.streamedge-Footer-contact-phone {
+    display: flex;
+    gap: 10px;
+}
+
+
+.StreamEdge-Rooms-service-categories-parent.container {
+    background: #FDF8F8;
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+    border-radius: 8px;
+}
+
+.StreamEdgeFooter-gallery-parent {
+    margin: 35px 0px 0px 0px;
+}
+
+.StreamEdge-Rooms-copyrights p {
+    margin: 0;
+    padding: 20px 0px;
+    color:#fff;
+}
+
+.stream-edge-map-subparent .row {
+    margin: 60px 0;
+}
+.streamedge-Footer-email-newsletter input::placeholder{
+    color: #fff;
+}
+.streamedge-Footer-email-newsletter input {
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+hr {
+    color: #fff;
+    opacity: 1;
+    margin: 0;
+}
+.streamEdge-Footer-link-title {
+    margin-bottom: 20px;
+}
+
+.Footer-content {
+    padding: 40px 0px 25px 0px;
+}
+
+.Fooer-Gallery-images {
+    height: 140px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.Fooer-Gallery-images img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.Fooer-Gallery-images img:hover {
+    transform: scale(1.2);
+}
+
+.StreamEdge-Rooms-Footer-Parent {
+    background: #000;
+    padding-top: 12px;
+    margin-top: -7px;
+}
+
+/* news and Articles section starts here */
+.NewsArticles-image {
+    width: 100%;
+    height: 240px;
+}
+
+.NewsArticles-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.newsArticles-date p {
+    margin: 0;
+}
+
+.newsArticles-date {
+    height: 60px;
+    position: absolute;
+    width: 60px;
+    top: -30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    background: #dc3545;
+    align-items: center;
+    border-radius: 50%;
+    flex-direction: column;
+    color: #fff;
+}
+
+.StreamEdgeNewsArticles-sub1 {
+    position: relative;
+}
+
+.StreamEdgeNewsArticles-sub1-content p {
+    margin-bottom: 5px;
+}
+
+.newsArticles-date p {
+    margin: 0;
+}
+
+.StreamEdgeNewsArticles-sub1-content {
+    position: relative;
+    bottom: 50px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 80%;
+    margin: auto;
+    background: #e5ecf9;
+}
+
+.streamEdge-stayMemorable-sub h2 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.StreamEdgeNewsArticles-sub-parent {
+    padding: 30px 0px 20px 0px;
+    height: fit-content;
+}
+
+.streamEdge-stayMemorable-sub p {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.streamEdge-stayMemorable-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.streamEdge-stayMemorable-sub-parent h2 {
+    text-align: center;
+}
+
+.streamEdge-stayMemorable-sub-1 {
+    display: flex;
+    gap: 15px;
+    margin: 15px 10px;
+}
+
+.streamEdge-stayMemorable-sub-1-image {
+    height: 50px;
+    width: 60px;
+}
+
+.streamEdge-stayMemorable-sub-1-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.streamEdge-stayMemorable-sub-parent-mainrow {
+    padding: 30px 0px 15px 0px;
+}
+
+.streamEdge-stayMemorable-sub-bar {
+    width: 60px;
+    height: 2px;
+    background: rgb(238 17 17);
+}
+
+.streamEdge-stayMemorable-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+.StreamEdgeNewsArticles-parent {
+    padding-top: 40px;
+}
+form.d-flex.navbar-home-mobile-icon-parent-main {
+    gap: 15px;
+    align-items: center;
+}
+form.d-flex.navbar-home-mobile-icon-parent-main button{
+    font-size: 14px;
+}
+.navbar-home-mobile-icon-parent{
+    display: flex;
+    align-items: center;
+}
+.navbar-home-mobile-icon-parent p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar-home-mobile-icon img{
+    filter: brightness(0.5);
+}
+.Footer-content p {
+    color:#fff;
+}
+a{
+    text-decoration: none;
+}
+    /* footer social media icons */
+    .Footer-social-Media-icons{
+        display: flex;
+        gap: 35px;
+        align-items: center;
+    }
+    .Footer-social-Media-icons i{
+       font-size: 30px;
+       color: #fff;
+    }
+@media only screen and (max-width:767px) { 
+    .Footer-content .row .col-sm-12.col-md-2{
+        width: 45%;
+        margin: 20px 0px;
+    }
+    .Footer-content .row div:nth-child(3){
+        order: 3;
+    }
+    .Footer-content .row .col-sm-8.col-md-3:last-child{
+       
+        width: 45%;
+        margin: 20px 0px;
+    }
+    .StreamEdge-Rooms-banner-title{
+        height: 65%;
+    }
+    .navbar-background-image{
+        height: 390px;
+    }
+    .streamEdge-stayMemorable-sub-bar{
+        width: 35px;
+    }
+    .StreamEdgeNewsArticles-parent h2{
+        margin: 0;
+        font-size: 25px;
+    }
+    .Fooer-Gallery-images {
+        height: 165px;
+        padding-bottom: 15px !important;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content {
+        padding: 10px;
+    }
+    .NewsArticles-image {
+        height: 225px;
+    }
+    .StreamEdge-Rooms-copyrights p {
+        font-size: 13px;
+    }
+
+    .streamEdge-Footer-link-title {
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+
+    .Footer-content {
+        padding: 20px 0px 0px 20px;
+    }
+    .Footer-content p {
+        font-size: 14px;
+    }
+    .StreamEdgeNewsArticles-sub-parent {
+        padding: 20px 0px 20px 0px;
+        height: fit-content;
+    }
+    .streamEdge-stayMemorable-sub{
+        padding: 10px 0;
+    }
+    .StreamEdgeNewsArticles-sub1 {
+        position: relative;
+        height: 330px;
+    }
+    
+    .StreamEdgeNewsArticles-sub1-content p {
+        font-size: 14px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content h6 {
+        font-size: 15px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content .btn-danger {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content strong {
+        font-size: 14px;
+    }
+    /* .NewsArticles-image{
+        height:270px;
+    } */
+    .newsArticles-date {
+        width: 52px;
+        right: 20px;
+        height: 52px;
+    }
+    form.d-flex.navbar-home-mobile-icon-parent-main {
+        margin-bottom: 10px;
+    }
+    .Footer-social-Media-icons{
+margin-bottom: 15px;
+}
+.Footer-social-Media-icons i{
+font-size: 28px;   
+}
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .streamEdge-Footer-link-title{
+        font-size: 18px;
+    }
+    .Footer-content p{
+        font-size: 14px;
+    }
+    .Footer-social-Media-icons {
+        gap: 20px;
+    }
+    .StreamEdge-Rooms-copyrights p {
+        padding: 20px 0px;
+        font-size: 15px;
+        color: #fff;
+    }
+    .Footer-social-Media-icons i {
+        font-size: 28px;
+    }
+    .StreamEdge-Rooms-banner-title{
+        height: 65%;
+    }
+    .navbar-background-image{
+        height: 400px;
+    }
+    .streamEdge-stayMemorable-sub{
+        padding: 10px 0;
+    }
+    .streamEdge-stayMemorable-sub-bar{
+        width: 35px;
+    }
+    .StreamEdgeNewsArticles-parent h2{
+        margin: 0;
+        font-size: 25px;
+    }
+    .StreamEdgeNewsArticles-sub1-content {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .StreamEdgeNewsArticles-sub-parent {
+        height: fit-content;
+    }
+
+    .NewsArticles-image img {
+        object-fit: cover;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content p {
+        font-size: 12px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content h6 {
+        font-size: 14px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content .btn-danger {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content strong {
+        font-size: 12px;
+    }
+
+    .newsArticles-date {
+        width: 52px;
+        right: 20px;
+        height: 52px;
+    }
+    form.d-flex.navbar-home-mobile-icon-parent-main {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+    .StreamEdge-Rooms-banner-title{
+        height: 65%;
+    }
+    .navbar-light .navbar-nav .nav-link.active {
+        font-size: 11px;
+      }
+      .navbar-home-mobile-icon-parent p{
+        font-size: 13px;
+      }
+    .streamEdge-stayMemorable-sub-bar{
+        width: 35px;
+    }
+    .streamEdge-stayMemorable-sub{
+        padding: 15px 0;
+    }
+    .StreamEdgeNewsArticles-parent h2{
+        margin: 0;
+        font-size: 28px;
+    }
+    .StreamEdgeNewsArticles-sub1-content {
+        width: 90%;
+        padding: 12px;
+    }
+
+    .StreamEdgeNewsArticles-sub-parent {
+        height: fit-content;
+    }
+   
+    .NewsArticles-image img {
+        object-fit: cover;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content p {
+        font-size: 12px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content h6 {
+        font-size: 14px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content .btn-danger {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .StreamEdgeNewsArticles-sub1-content strong {
+        font-size: 12px;
+    }
+
+    .newsArticles-date {
+        width: 52px;
+        right: 20px;
+        height: 52px;
+    }
+}
