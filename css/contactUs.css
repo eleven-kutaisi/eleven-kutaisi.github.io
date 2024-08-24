@@ -2,9 +2,9 @@ body {
     font-family: "Jost", sans-serif;
 }
 
-.streamedge-Footer-contact-phone .phone-icon,
-.streamedge-Footer-contact-phone .location-icon,
-.streamedge-Footer-contact-phone .email-icon {
+.eleven-Footer-contact-phone .phone-icon,
+.eleven-Footer-contact-phone .location-icon,
+.eleven-Footer-contact-phone .email-icon {
     filter: brightness(1.5);
     color: #fff;
     font-weight: 900;
@@ -44,19 +44,19 @@ a {
     color: #000;
 }
 
-.SteamEdge-logo {
+.eleven-logo {
     height: 60px;
     width: 170px;
 }
 
-.SteamEdge-logo img {
+.eleven-logo img {
     height: 100%;
     width: 100%;
     object-fit: contain;
 }
 
 .navbar-background-image {
-    background: linear-gradient(rgb(0 0 0 / 77%), rgb(0 0 0 / 35%)), url(./assets/images/galleyhousebanner.webp);
+    background: linear-gradient(rgb(0 0 0 / 77%), rgb(0 0 0 / 35%)), url(../images/eleven/eleven-car-lady.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,12 +68,12 @@ nav.navbar.navbar-expand-lg.navbar-light {
     padding-top: 20px;
 }
 
-.StreamEdge-Rooms-banner-title h1 {
+.eleven-Rooms-banner-title h1 {
     font-size: 50px;
     font-weight: 500;
 }
 
-.StreamEdge-Rooms-banner-title {
+.eleven-Rooms-banner-title {
     height: 65%;
     display: flex;
     justify-content: center;
@@ -86,26 +86,26 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-weight: 600;
 }
 
-.stream-edge-map-subparent {
+.eleven-map-subparent {
     width: 90%;
     margin: auto;
 }
 
-.streamedge-contact-message .contactus-streamedge {
+.eleven-contact-message .contactus-eleven {
     display: flex !important;
     align-items: start !important;
     justify-content: start;
     padding: 0px 15px;
 }
 
-.contactus-streamedge h6 {
+.contactus-eleven h6 {
     width: 90px;
     margin: 6px 0;
     font-size: 17px;
     font-weight: 500;
 }
 
-.contactus-streamedge h6:hover {
+.contactus-eleven h6:hover {
     color: #6b6a6a;
 }
 
@@ -116,14 +116,14 @@ nav.navbar.navbar-expand-lg.navbar-light {
     height: 300px;
 }
 
-.contactus-streamedge p {
+.contactus-eleven p {
     width: 260px;
     margin: 6px 0;
     font-size: 15px;
     font-weight: 400;
 }
 
-.contactus-streamedge a {
+.contactus-eleven a {
     width: 260px;
     margin: 6px 0;
     font-size: 15px;
@@ -131,28 +131,28 @@ nav.navbar.navbar-expand-lg.navbar-light {
     color: #373737;
 }
 
-.contactus-streamedge a:hover {
+.contactus-eleven a:hover {
     color: #dc3545;
 }
 
-.contactus-streamedge p:hover {
+.contactus-eleven p:hover {
     color: #dc3545;
 }
 
-.contact-iamge-stream {
+.contact-iamge-eleven {
     width: 100%;
     height: 232px;
     position: relative;
     top: 16%;
 }
 
-.streamedge-hr-center {
+.eleven-hr-center {
     color: #dc3545;
     opacity: 0.7;
 
 }
 
-.contact-iamge-stream img {
+.contact-iamge-eleven img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -161,7 +161,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
 
 /* Banner styles ends here */
 /* Styles for Footer - rooms page starts here */
-.streamedge-Footer-contact-phone {
+.eleven-Footer-contact-phone {
     display: flex;
     gap: 10px;
 }
@@ -170,28 +170,28 @@ nav.navbar.navbar-expand-lg.navbar-light {
     color: #fff;
 }
 
-.StreamEdge-Rooms-service-categories-parent.container {
+.eleven-Rooms-service-categories-parent.container {
     background: #FDF8F8;
     margin: auto;
     padding: 10px 20px 20px 20px;
     border-radius: 8px;
 }
 
-.StreamEdgeFooter-gallery-parent {
+.eleven-Footer-gallery-parent {
     margin: 35px 0px 0px 0px;
 }
 
-.StreamEdge-Rooms-copyrights p {
+.eleven-Rooms-copyrights p {
     margin: 0;
     padding: 20px 0px;
     color:#fff;
 }
 
-.stream-edge-map-subparent .row {
+.eleven-map-subparent .row {
     margin: 60px 0;
 }
 
-.streamedge-Footer-email-newsletter input {
+.eleven-Footer-email-newsletter input {
     padding: 5px;
     width: 250px;
     border: 1px solid #fff;
@@ -201,7 +201,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     color: #fff;
 }
 
-.streamedge-Footer-email-newsletter input::placeholder {
+.eleven-Footer-email-newsletter input::placeholder {
     color: #fff;
 }
 
@@ -211,7 +211,7 @@ hr {
     margin: 0;
 }
 
-.streamEdge-Footer-link-title {
+.eleven-Footer-link-title {
     margin-bottom: 20px;
 }
 
@@ -236,7 +236,7 @@ hr {
     transform: scale(1.2);
 }
 
-.StreamEdge-Rooms-Footer-Parent {
+.eleven-Rooms-Footer-Parent {
     background: #000;
     padding-top: 12px;
     margin-top: -7px;
@@ -273,7 +273,7 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
     font-size: 14px;
 }
 
-.streamedge-contact-message {
+.eleven-contact-message {
     padding: 36px 10px;
     background-color: #F5F5F5;
     border-radius: 10px;
@@ -316,11 +316,11 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         margin: 20px 0px;
     }
     
-    .StreamEdge-Rooms-banner-title h1 {
+    .eleven-Rooms-banner-title h1 {
         font-size: 36px;
     }
 
-    .stream-edge-map-subparent .row {
+    .eleven-map-subparent .row {
         margin: 20px 0;
     }
 
@@ -328,24 +328,24 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         font-size: 22px;
     }
 
-    .contactus-streamedge h6 {
+    .contactus-eleven h6 {
         font-size: 14px;
         width: 66px;
     }
 
-    .streamedge-contact-message .contactus-streamedge {
+    .eleven-contact-message .contactus-eleven {
         padding: 0 4px;
     }
 
-    .contactus-streamedge p {
+    .contactus-eleven p {
         font-size: 13px;
     }
 
-    .streamedge-contact-message {
+    .eleven-contact-message {
         padding: 21px 5px;
     }
 
-    .contact-iamge-stream {
+    .contact-iamge-eleven {
         width: 100%;
         padding: 15px 0;
         top: 0px;
@@ -357,7 +357,7 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
     }
 
 
-    .streamedge-iframe iframe {
+    .eleven-iframe iframe {
         height: 290px !important;
     }
 
@@ -366,11 +366,11 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         padding-bottom: 15px !important;
     }
 
-    .StreamEdge-Rooms-copyrights p {
+    .eleven-Rooms-copyrights p {
         font-size: 13px;
     }
 
-    .streamEdge-Footer-link-title {
+    .eleven-Footer-link-title {
         margin-bottom: 15px;
         font-size: 16px;
     }
@@ -385,10 +385,10 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
 }
 
 @media screen and (max-width:576px) {
-    .stream-edge-map-subparent {
+    .eleven-map-subparent {
         width: 100%;
     }
-    .streamEdge-Footer-link-title {
+    .eleven-Footer-link-title {
         margin-bottom: 15px;
         font-size: 22px;
       }
@@ -409,17 +409,17 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         margin-bottom: 10px;
     }
 
-    /* .streamedge-contact-message {
+    /* .eleven-contact-message {
         padding: 21px 13px;
     } */
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
-    .StreamEdge-Rooms-copyrights p {
+    .eleven-Rooms-copyrights p {
         font-size: 15px;
         color: #fff;
     }
-    .streamEdge-Footer-link-title{
+    .eleven-Footer-link-title{
         font-size: 18px;
     }
     .Footer-social-Media-icons {
@@ -436,7 +436,7 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         font-size: 14px;
     }
 
-    .stream-edge-map-subparent {
+    .eleven-map-subparent {
         width: 95%;
     }
 
@@ -448,34 +448,34 @@ form.d-flex.navbar-home-mobile-icon-parent-main button {
         font-size: 26px;
     }
 
-    .streamedge-contact-message {
+    .eleven-contact-message {
         padding: 30px 15px;
     }
 
-    .contactus-streamedge h6 {
+    .contactus-eleven h6 {
         font-size: 15px;
     }
 
-    .contactus-streamedge p {
+    .contactus-eleven p {
         font-size: 13px;
     }
 
-    .contact-iamge-stream {
+    .contact-iamge-eleven {
         height: 209px;
         width: 95%;
     }
 
-    .streamedge-iframe iframe {
+    .eleven-iframe iframe {
         height: 310px !important;
     }
 }
 
-.StreamEdge-Rooms-Footer-Parent {
+.eleven-Rooms-Footer-Parent {
     background: #000;
     padding-top: 12px;
     margin-top: 80px;
 }
 
-.StreamEdgeFooter-gallery-parent {
+.eleven-Footer-gallery-parent {
     padding: 40px 0px 40px;
 }
