@@ -381,6 +381,21 @@
       </div>
     </div>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <img id="lightbox-image" class="lightbox-image" src="" alt="" />
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+        <button id="lightbox-close" class="lightbox-close">&times;</button>
+        <button id="lightbox-prev" class="lightbox-nav lightbox-prev">
+          &lt;
+        </button>
+        <button id="lightbox-next" class="lightbox-nav lightbox-next">
+          &gt;
+        </button>
+      </div>
+    </div>
+
     <!-- Scripts -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/gallery-config.js"></script>
@@ -497,20 +512,30 @@
           const lightboxImage = document.getElementById("lightbox-image");
           const lightboxCaption = document.getElementById("lightbox-caption");
 
-          if (visibleImages[currentImageIndex]) {
+          if (
+            visibleImages[currentImageIndex] &&
+            lightbox &&
+            lightboxImage &&
+            lightboxCaption
+          ) {
             const img = visibleImages[currentImageIndex].querySelector("img");
-            lightboxImage.src = img.src;
-            lightboxImage.alt = img.alt;
-            lightboxCaption.innerHTML = img.getAttribute("data-caption") || "";
-            lightbox.classList.add("active");
-            document.body.style.overflow = "hidden";
+            if (img) {
+              lightboxImage.src = img.src;
+              lightboxImage.alt = img.alt;
+              lightboxCaption.innerHTML =
+                img.getAttribute("data-caption") || "";
+              lightbox.classList.add("active");
+              document.body.style.overflow = "hidden";
+            }
           }
         }
 
         function closeLightbox() {
           const lightbox = document.getElementById("lightbox");
-          lightbox.classList.remove("active");
-          document.body.style.overflow = "";
+          if (lightbox) {
+            lightbox.classList.remove("active");
+            document.body.style.overflow = "";
+          }
         }
 
         function showImage(index) {
@@ -519,9 +544,13 @@
             const lightboxImage = document.getElementById("lightbox-image");
             const lightboxCaption = document.getElementById("lightbox-caption");
             const img = visibleImages[currentImageIndex].querySelector("img");
-            lightboxImage.src = img.src;
-            lightboxImage.alt = img.alt;
-            lightboxCaption.innerHTML = img.getAttribute("data-caption") || "";
+
+            if (lightboxImage && lightboxCaption && img) {
+              lightboxImage.src = img.src;
+              lightboxImage.alt = img.alt;
+              lightboxCaption.innerHTML =
+                img.getAttribute("data-caption") || "";
+            }
           }
         }
 
@@ -540,33 +569,39 @@
         }
 
         // Lightbox close and navigation
-        document
-          .getElementById("lightbox-close")
-          .addEventListener("click", closeLightbox);
-        document
-          .getElementById("lightbox")
-          .addEventListener("click", function (e) {
+        const lightboxClose = document.getElementById("lightbox-close");
+        const lightbox = document.getElementById("lightbox");
+        const lightboxPrev = document.getElementById("lightbox-prev");
+        const lightboxNext = document.getElementById("lightbox-next");
+
+        if (lightboxClose) {
+          lightboxClose.addEventListener("click", closeLightbox);
+        }
+
+        if (lightbox) {
+          lightbox.addEventListener("click", function (e) {
             if (e.target === this) {
               closeLightbox();
             }
           });
+        }
 
-        document
-          .getElementById("lightbox-prev")
-          .addEventListener("click", () => {
+        if (lightboxPrev) {
+          lightboxPrev.addEventListener("click", () => {
             showImage(currentImageIndex - 1);
           });
+        }
 
-        document
-          .getElementById("lightbox-next")
-          .addEventListener("click", () => {
+        if (lightboxNext) {
+          lightboxNext.addEventListener("click", () => {
             showImage(currentImageIndex + 1);
           });
+        }
 
         // Keyboard navigation
         document.addEventListener("keydown", function (e) {
           const lightbox = document.getElementById("lightbox");
-          if (lightbox.classList.contains("active")) {
+          if (lightbox && lightbox.classList.contains("active")) {
             if (e.key === "Escape") {
               closeLightbox();
             } else if (e.key === "ArrowLeft") {
