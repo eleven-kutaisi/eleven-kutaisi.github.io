@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery - Eleven Guest House | Kutaisi, Georgia</title>
+    <meta
+      name="description"
+      content="Explore our photo gallery showcasing the beauty of Eleven Guest House in Kutaisi, Georgia. See our rooms, gardens, and authentic Georgian hospitality."
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="icon"
+      sizes="48x48"
+      type="image/x-icon"
+      href="images/koba.jpeg"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/eleven-gallery.css" />
+  </head>
+
+  <body>
+    <div class="eleven-guesthouse-container">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <div class="eleven-logo">
+              <img src="images/koba.jpeg" alt="Eleven Guest House Logo" />
+              <span class="logo-text">Eleven Guest House</span>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rooms.html">ROOMS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                >
+                  EXPERIENCES
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <a class="dropdown-item" href="activities.html">ACTIVITIES</a>
+                  <a class="dropdown-item" href="kutaisi-attractions.html"
+                    >KUTAISI ATTRACTIONS</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div class="navbar-contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+995 599 30 40 55</span>
+              </div>
+              <a
+                href="https://wa.me/995571718271"
+                target="_blank"
+                class="btn btn-primary"
+                >BOOK NOW</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="gallery-hero">
+        <div
+          class="hero-background"
+          style="background-image: url('images/eleven/eleven-garden2.jpg')"
+        >
+          <div class="hero-overlay">
+            <div class="container">
+              <div class="hero-content">
+                <h1>Photo Gallery</h1>
+                <p>
+                  Discover the beauty and charm of Eleven Guest House through
+                  our photo collection
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Categories -->
+      <section class="gallery-categories">
+        <div class="container">
+          <div class="category-filters">
+            <button class="filter-btn active" data-filter="all">
+              All Photos
+            </button>
+            <button class="filter-btn" data-filter="rooms">Rooms</button>
+            <button class="filter-btn" data-filter="garden">Garden</button>
+            <button class="filter-btn" data-filter="dining">Dining</button>
+            <button class="filter-btn" data-filter="activities">
+              Activities
+            </button>
+            <button class="filter-btn" data-filter="kutaisi">Kutaisi</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Photo Gallery -->
+      <section class="photo-gallery">
+        <div class="container">
+          <div class="gallery-grid" id="galleryGrid">
+            <!-- Rooms -->
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/eleven/eleven-car-bedroom.jpg"
+                alt="Deluxe Room"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Deluxe Room</h4>
+                <p>Comfortable accommodation with garden views</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/eleven/eleven-hostel.jpg"
+                alt="Dormitory Room"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Dormitory Room</h4>
+                <p>Budget-friendly accommodation for travelers</p>
+              </div>
+            </div>
+
+            <!-- Garden -->
+            <div class="gallery-item" data-category="garden">
+              <img
+                src="images/eleven/eleven-garden2.jpg"
+                alt="Beautiful Garden"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Our Garden</h4>
+                <p>Peaceful outdoor space for relaxation</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="garden">
+              <img
+                src="images/eleven/eleven-garden-night.jpg"
+                alt="Garden at Night"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Garden at Night</h4>
+                <p>Magical evening atmosphere</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="garden">
+              <img
+                src="images/eleven/eleven-grapes.jpg"
+                alt="Grape Garden"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Grape Garden</h4>
+                <p>Our own grapes for wine making</p>
+              </div>
+            </div>
+
+            <!-- Dining -->
+            <div class="gallery-item" data-category="dining">
+              <img
+                src="images/eleven/eleven-dining2.jpg"
+                alt="Dining Area"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Dining Area</h4>
+                <p>Traditional Georgian dining experience</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="dining">
+              <img
+                src="images/eleven/khachapuri.jpg"
+                alt="Georgian Khachapuri"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Georgian Khachapuri</h4>
+                <p>Traditional Georgian cheese bread</p>
+              </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="gallery-item" data-category="activities">
+              <img
+                src="images/eleven/eleven-fireplace.jpg"
+                alt="Fireplace"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Cozy Fireplace</h4>
+                <p>Perfect for evening gatherings</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="activities">
+              <img
+                src="images/eleven/eleven-car-lady.jpg"
+                alt="Lady the Dog"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Meet Lady</h4>
+                <p>Our friendly resident Shih Tzu</p>
+              </div>
+            </div>
+
+            <!-- Kutaisi -->
+            <div class="gallery-item" data-category="kutaisi">
+              <img
+                src="images/eleven/kutaisi-bagrati.JPG"
+                alt="Bagrati Cathedral"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Bagrati Cathedral</h4>
+                <p>UNESCO World Heritage site in Kutaisi</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="kutaisi">
+              <img
+                src="images/eleven/kutaisi-theatre.JPG"
+                alt="Kutaisi Theatre"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Kutaisi Theatre</h4>
+                <p>Historic cultural landmark</p>
+              </div>
+            </div>
+
+            <!-- Additional Garden Photos -->
+            <div class="gallery-item" data-category="garden">
+              <img
+                src="images/eleven/eleven-car-garden.jpg"
+                alt="Garden View"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Garden View</h4>
+                <p>Beautiful outdoor seating area</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="garden">
+              <img
+                src="images/eleven/eleven-car-garden1.jpg"
+                alt="Garden Entrance"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Garden Entrance</h4>
+                <p>Welcoming entrance to our property</p>
+              </div>
+            </div>
+
+            <!-- Additional Room Photos -->
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/eleven/eleven-car-sitout.jpg"
+                alt="Sitting Area"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Sitting Area</h4>
+                <p>Comfortable common space</p>
+              </div>
+            </div>
+
+            <div class="gallery-item" data-category="rooms">
+              <img
+                src="images/eleven/eleven-car-basement.jpg"
+                alt="Basement Area"
+                loading="lazy"
+              />
+              <div class="gallery-overlay">
+                <h4>Basement Area</h4>
+                <p>Additional space for guests</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section class="video-section">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-badge">VIDEO TOUR</span>
+            <h2>Take a Virtual Tour</h2>
+            <p>Experience Eleven Guest House through our video tour</p>
+          </div>
+
+          <div class="video-container">
+            <div class="video-placeholder">
+              <div class="video-overlay">
+                <i class="fas fa-play-circle"></i>
+                <h4>Virtual Tour Coming Soon</h4>
+                <p>
+                  We're working on a comprehensive video tour of our property
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Guest Photos -->
+      <section class="guest-photos">
+        <div class="container">
+          <div class="section-header text-center">
+            <span class="section-badge">GUEST PHOTOS</span>
+            <h2>Photos from Our Guests</h2>
+            <p>See Eleven Guest House through the eyes of our visitors</p>
+          </div>
+
+          <div class="guest-photos-grid">
+            <div class="guest-photo-item">
+              <div class="guest-photo-placeholder">
+                <i class="fas fa-camera"></i>
+                <p>Share your photos with us!</p>
+              </div>
+              <div class="guest-info">
+                <h5>Your Photo Here</h5>
+                <span>Tag us on social media</span>
+              </div>
+            </div>
+
+            <div class="guest-photo-item">
+              <div class="guest-photo-placeholder">
+                <i class="fas fa-camera"></i>
+                <p>Share your photos with us!</p>
+              </div>
+              <div class="guest-info">
+                <h5>Your Photo Here</h5>
+                <span>Tag us on social media</span>
+              </div>
+            </div>
+
+            <div class="guest-photo-item">
+              <div class="guest-photo-placeholder">
+                <i class="fas fa-camera"></i>
+                <p>Share your photos with us!</p>
+              </div>
+              <div class="guest-info">
+                <h5>Your Photo Here</h5>
+                <span>Tag us on social media</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <div class="container">
+          <div class="cta-content text-center">
+            <h2>Ready to Experience It Yourself?</h2>
+            <p>
+              Book your stay and create your own memories at Eleven Guest House
+            </p>
+            <div class="cta-buttons">
+              <a
+                href="https://wa.me/995571718271"
+                target="_blank"
+                class="btn btn-primary btn-lg"
+                >Book Now</a
+              >
+              <a href="rooms.html" class="btn btn-outline-light btn-lg"
+                >View Rooms</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-brand">
+                <img
+                  src="images/koba.jpeg"
+                  alt="Eleven Guest House"
+                  class="footer-logo"
+                />
+                <h4>Eleven Guest House</h4>
+                <p>Authentic Georgian hospitality in the heart of Kutaisi</p>
+              </div>
+              <div class="footer-contact">
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span
+                    >3rd lane, 11 Lado Asatiani Street, Kutaisi 4600,
+                    Georgia</span
+                  >
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <span>+995 599 30 40 55</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <span>elevenkutaisi@gmail.com</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5>Quick Links</h5>
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="rooms.html">Rooms</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <h5>Experiences</h5>
+              <ul class="footer-links">
+                <li><a href="activities.html">Activities</a></li>
+                <li>
+                  <a href="kutaisi-attractions.html">Kutaisi Attractions</a>
+                </li>
+                <li><a href="gallery.html">Photo Gallery</a></li>
+                <li><a href="about.html">Our Story</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h5>Location</h5>
+              <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39832.009934543275!2d42.66704202044849!3d42.26829777508538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405c8d3889bd5c49%3A0xc08fbd93fe5a05b3!2sELEVEN%20guest%20house!5e0!3m2!1sen!2sin!4v1724442716559!5m2!1sen!2sin"
+                  width="100%"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="footer-bottom">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <p>&copy; 2024 Eleven Guest House. All rights reserved.</p>
+              </div>
+              <div class="col-md-6 text-end">
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightboxModal">
+      <div class="lightbox-content">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="" />
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Gallery filtering
+      const filterButtons = document.querySelectorAll(".filter-btn");
+      const galleryItems = document.querySelectorAll(".gallery-item");
+
+      filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Remove active class from all buttons
+          filterButtons.forEach((btn) => btn.classList.remove("active"));
+          // Add active class to clicked button
+          button.classList.add("active");
+
+          const filter = button.getAttribute("data-filter");
+
+          galleryItems.forEach((item) => {
+            if (
+              filter === "all" ||
+              item.getAttribute("data-category") === filter
+            ) {
+              item.style.display = "block";
+              item.classList.add("fade-in-visible");
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+
+      // Lightbox functionality
+      const lightboxModal = document.getElementById("lightboxModal");
+      const lightboxImage = document.getElementById("lightboxImage");
+      const lightboxCaption = document.getElementById("lightboxCaption");
+      const lightboxClose = document.querySelector(".lightbox-close");
+      const lightboxPrev = document.getElementById("lightboxPrev");
+      const lightboxNext = document.getElementById("lightboxNext");
+
+      let currentImageIndex = 0;
+      let visibleImages = [];
+
+      // Show lightbox
+      function showLightbox(imageSrc, caption, index) {
+        lightboxImage.src = imageSrc;
+        lightboxCaption.textContent = caption;
+        currentImageIndex = index;
+        lightboxModal.style.display = "flex";
+        document.body.style.overflow = "hidden";
+      }
+
+      // Hide lightbox
+      function hideLightbox() {
+        lightboxModal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }
+
+      // Navigate to previous image
+      function showPrevImage() {
+        currentImageIndex =
+          (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
+        const currentItem = visibleImages[currentImageIndex];
+        showLightbox(currentItem.src, currentItem.caption, currentImageIndex);
+      }
+
+      // Navigate to next image
+      function showNextImage() {
+        currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
+        const currentItem = visibleImages[currentImageIndex];
+        showLightbox(currentItem.src, currentItem.caption, currentImageIndex);
+      }
+
+      // Add click event to gallery items
+      galleryItems.forEach((item, index) => {
+        const img = item.querySelector("img");
+        const caption = item.querySelector(".gallery-overlay h4").textContent;
+
+        item.addEventListener("click", () => {
+          visibleImages = Array.from(
+            document.querySelectorAll(
+              '.gallery-item:not([style*="display: none"])'
+            )
+          ).map((item) => ({
+            src: item.querySelector("img").src,
+            caption: item.querySelector(".gallery-overlay h4").textContent,
+          }));
+
+          const currentIndex = visibleImages.findIndex(
+            (img) => img.src === img.src
+          );
+          showLightbox(
+            img.src,
+            caption,
+            currentIndex >= 0 ? currentIndex : index
+          );
+        });
+      });
+
+      // Lightbox event listeners
+      lightboxClose.addEventListener("click", hideLightbox);
+      lightboxPrev.addEventListener("click", showPrevImage);
+      lightboxNext.addEventListener("click", showNextImage);
+
+      // Close lightbox when clicking outside
+      lightboxModal.addEventListener("click", (e) => {
+        if (e.target === lightboxModal) {
+          hideLightbox();
+        }
+      });
+
+      // Keyboard navigation
+      document.addEventListener("keydown", (e) => {
+        if (lightboxModal.style.display === "flex") {
+          if (e.key === "Escape") {
+            hideLightbox();
+          } else if (e.key === "ArrowLeft") {
+            showPrevImage();
+          } else if (e.key === "ArrowRight") {
+            showNextImage();
+          }
+        }
+      });
+
+      // Fade in animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-visible");
+          }
+        });
+      }, observerOptions);
+
+      document
+        .querySelectorAll(".fade-in")
+        .forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
